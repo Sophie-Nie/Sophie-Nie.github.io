@@ -1,0 +1,444 @@
+body {
+	margin: 0 auto;
+	font-size: 12px;
+	font-family: "微软雅黑",arial;
+	line-height: 22px;
+	background: url(../img/bg.gif);
+}
+
+div,p,input,ul,li,h1,h2,h3,dl,dt,dd {
+	height: auto;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+img {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.web {
+	width: 1920px;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+
+.top {
+	width: 1920px;
+	height: 681px;
+	background: url(../img/simg1.jpg) no-repeat;
+	margin-bottom: 25px;
+}
+
+.topbg {
+	height: 83px;
+	width: 1920px;
+	background: rgba(0,0,0,0.5);
+}
+
+.topner {
+	width: 1201px;
+	height: 83px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 362px;
+	height: 28px;
+	float: left;
+	margin-left: 12px;
+	margin-top: 24px;
+}
+
+.nav {
+	height: 50px;
+	width: 650px;
+	float: right;
+	padding-top: 25px;
+}
+
+.nav ul {
+}
+
+.nav ul li {
+	margin: 0px 30px;
+	float: left;
+	text-align: center;
+}
+
+.nav ul li a {
+	color: #FFF;
+}
+
+.nav ul li a:hover {
+	color: #ffbc22;
+}
+
+.nav ul li h1 {
+	font-size: 20px;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+.main {
+	width: 1201px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.title {
+	height: 100px;
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.title h1 {
+	line-height: 60px;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+.title .xian {
+	width: 35px;
+	height: 2px;
+	border-bottom: #ffbc22 1px solid;
+	margin: 0 auto;
+}
+
+.sbox1 {
+	height: 450px;
+}
+
+.sbox1 .ner {
+	width: 100%;
+	height: 260px;
+}
+
+.sbox1 .left {
+	width: 543px;
+	height: 203px;
+	float: left;
+	box-shadow: 2px 2px 15px 5px #d1d0d0;
+	margin-left: 20px;
+}
+
+.sbox1 .left .lef {
+	width: 340px;
+	height: 203px;
+	float: left;
+}
+
+.sbox1 .left .lef h1 {
+	width: 160px;
+	color: #434d53;
+	height: 60px;
+	line-height: 60px;
+	font-size: 28px;
+	border-bottom: #de6262 1px solid;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.sbox1 .left .lef p {
+	line-height: 23px;
+	color: #434d53;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+.sbox1 .left .rig {
+	float: left;
+	width: 202px;
+}
+
+.sbox1 .right {
+	width: 543px;
+	height: 203px;
+	float: right;
+	box-shadow: 2px 2px 15px 5px #d1d0d0;
+	margin-right: 20px;
+}
+
+.sbox1 .right h1 {
+	color: #434d53;
+	height: 60px;
+	line-height: 60px;
+	font-size: 28px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.sbox1 .right .wenz {
+	width: 510px;
+	height: 75px;
+	color: #54585a;
+	font-size: 16px;
+	line-height: 23px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.sbox2 {
+	height: 980px;
+}
+
+.sbox2 .ner {
+	height: 708px;
+}
+
+.sbox2 .ner .bx1 {
+	width: 315px;
+	height: 314px;
+	margin-top: 100px;
+	box-shadow: 2px 2px 15px 5px #d1d0d0;
+	float: left;
+	margin-left: 15px;
+	background: #FFF;
+	position: relative;
+	text-align: center;
+}
+
+.sbox2 .ner .bx2 {
+	width: 500px;
+	height: 505px;
+	box-shadow: 2px 2px 15px 5px #d1d0d0;
+	float: left;
+	margin-left: 20px;
+	background: #FFF;
+	position: relative;
+	text-align: center;
+}
+
+
+.sbox2 .ner .bx3 {
+	float: right !important;
+	margin-right: 15px;
+}
+
+.foot {
+	height: 216px;
+	width: 100%;
+	background: #151519;
+}
+
+.footer {
+	width: 1201px;
+	height: 45px;
+	margin: 0 auto;
+	padding-top: 90px;
+	line-height: 45px;
+	color: #42424b;
+	font-size: 24px;
+}
+
+.footer img {
+	margin-right: 80px;
+	float: left;
+	margin-top: 25px;
+}
+
+.footer a {
+	float: left;
+	padding: 10px;
+	float: left;
+	color: #42424b;
+	font-size: 24px;
+}
+
+.jianjie {
+	width: 1920px;
+	height: auto;
+	overflow: hidden;
+	background: url(../img/simg3.jpg) no-repeat;
+	padding-bottom: 107px;
+}
+.jjner{
+	height:auto;
+	overflow:hidden;
+	min-height:600px;
+	}
+
+
+.zp {
+	width: 1920px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	background: url(../img/simg3.jpg) no-repeat;
+}
+.an{
+	width: 1920px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	background: url(../img/simg4.jpg) no-repeat;
+}
+.zptit {
+	height: 100px;
+	line-height: 100px;
+	padding-top: 90px;
+	text-align: center;
+	font-size: 60px;
+	color: #FFF;
+}
+
+.zpji {
+	width: 1200px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+.zpji .dsj {
+	width: 700px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+
+
+.banner {
+	padding-top: 50px;
+	height: 547px;
+	margin-bottom: 50px;
+}
+.banner2{
+	padding-top: 50px;
+	height: 247px;
+	margin-bottom: 50px;
+}
+
+.mKeBanner,.mKeBanner div {
+	text-align: center;
+}
+
+.imageflow img {
+	-webkit-box-shadow: 2px 2px 2px 2px hsla(0,0%,0%,0.1);
+	box-shadow: 2px 2px 2px 2px hsla(0,0%,0%,0.1);
+}
+
+.imageflow {
+	overflow: hidden;
+	position: relative;
+	text-align: left;
+	visibility: hidden;
+	width: 1200px;
+	margin: 0 auto
+}
+
+.imageflow img {
+	border: none;
+	position: absolute;
+	top: 0px;
+	visibility: hidden;
+	-ms-interpolation-mode: bicubic
+}
+
+.imageflow p {
+	margin: 0 auto;
+	text-align: center
+}
+
+.imageflow .loading {
+	border: 1px solid #ccc;
+	height: 15px;
+	left: 50%;
+	margin-left: -106px;
+	padding: 5px;
+	position: relative;
+	visibility: visible;
+	width: 200px
+}
+
+.imageflow .loading_bar {
+	background: #ccc;
+	height: 15px;
+	visibility: visible;
+	width: 1%
+}
+
+.imageflow .caption {
+	font-weight: bold;
+	position: relative;
+	text-align: center;
+	z-index: 10000
+}
+
+.imageflow .scrollbar {
+	border-bottom: 1px solid #b3b3b3;
+	position: relative;
+	visibility: hidden;
+	z-index: 10001;
+	height: 1px
+}
+
+.imageflow .slider {
+	background-repeat: no-repeat;
+	height: 14px;
+	margin: -6px 0 0 -7px;
+	position: absolute;
+	width: 14px;
+	z-index: 10002
+}
+
+.imageflow .images {
+	overflow: hidden;
+	white-space: nowrap
+}
+
+.imageflow .button {
+	cursor: pointer;
+	height: 17px;
+	position: relative;
+	width: 17px
+}
+
+.imageflow .previous {
+	float: left;
+	margin: -7px 0 0 -30px
+}
+
+.imageflow .next {
+	float: right;
+	margin: -7px -30px 0 30px
+}
+
+.zpbox {
+	width: 354px;
+	height: 540px;
+	float: left;
+	margin: 0px 15px;
+	margin-bottom: 20px;
+}
+
+.zpbox img {
+	display: block;
+	width: 354px;
+	height: 471px;
+	margin-bottom: 10px;
+}
+
+.zpbox h1 {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: normal;
+}
+
