@@ -39,6 +39,7 @@ img {
 	width: 1920px;
 	height: 681px;
 	background: url(../img/simg1.jpg) no-repeat;
+	background-size: 100%;
 	margin-bottom: 25px;
 }
 
