@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('.ner img, #starsIF img').forEach(img => {
+    document.querySelectorAll('.ner img, .zpbox img').forEach(img => {
       img.onclick = function () {
         showModal(this.src);
       }
-    });
+    }); 
   
     function showModal(src) {
       const modal = document.getElementById('modal');
